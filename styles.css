@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpapercave.com/wp/wp11317614.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.heading-div {
+  width: 50vw;
+  height: fit-content;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 8px #222;
+  color: #fff;
+}
+.heading-div > p {
+  font-weight: 400;
+}
+h1 {
+  font-weight: 600;
+}
+#image {
+  max-width: 1500px;
+  max-height: 1500px;
+}
+.image-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(90, 100, 100, 0.7);
+  border: 1px solid #777;
+  backdrop-filter: blur(4px);
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 15px 1px #333;
+}
+.image-group-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-item_a > img {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  object-fit: cover;
+
+  height: 600px;
+  width: 25vw;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+
+  margin: 5px;
+
+  box-shadow: 2px 2px 8px 1px #555;
+  border: solid #888 1px;
+}
+.image-item_b > img {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  object-fit: cover;
+
+  height: 291px;
+  width: 25vw;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+
+  margin: 5px;
+  box-shadow: 2px 2px 8px 1px #555;
+  border: solid #888 1px;
+}
