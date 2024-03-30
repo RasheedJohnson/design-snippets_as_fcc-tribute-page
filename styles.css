@@ -20,10 +20,32 @@ main {
   color: #fff;
 }
 .heading-div > p {
-  font-weight: 400;
+  font-weight: lighter;
 }
 h1 {
+  background-color: rgba(75, 80, 80, 0.5);
+  box-shadow: inset 2px 2px 15px 1px #444;
+  padding: 10px;
   font-weight: 600;
+  border-radius: 20px;
+}
+hr {
+  width: 50%;
+  border-color: rgba(75, 80, 80, 0.3);
+}
+.content-cover {
+  margin-top: 30px;
+  background-color: rgba(75, 80, 80, 0.5);
+  box-shadow: inset 2px 2px 15px 1px #444;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.content > li {
+  margin-top: 10px;
+}
+ul {
+  margin-bottom: 30px;
 }
 #image {
   max-width: 1500px;
@@ -40,6 +62,8 @@ h1 {
   padding: 30px;
   border-radius: 50px;
   box-shadow: 4px 4px 15px 1px #333;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .image-group-b {
   display: flex;
@@ -82,4 +106,29 @@ h1 {
   margin: 5px;
   box-shadow: 2px 2px 8px 1px #555;
   border: solid #888 1px;
+}
+
+span {
+  font-weight: bold;
+}
+p {
+  margin-left: 5%;
+  width: 80%;
+}
+.quote {
+  font-weight: lighter;
+}
+.final {
+  margin-top: 20px;
+  margin-left: 2%;
+  width: 80%;
+  text-shadow: none;
+  font-weight: lighter;
+}
+#tribute-link {
+  margin-top: 0px;
+  text-decoration: none;
+  color: rgb(35, 35, 82);
+  text-shadow: none;
+  font-weight: bold;
 }
